@@ -1,13 +1,13 @@
 package baekjoon.implementation;
 
 import java.util.Scanner;
-
+//점수에 따라 학점으로 변환
 public class Q9498 {
 
 	public static void main(String[] args) {
 		
-		Scanner scanner = new Scanner(System.in);
-		int score = scanner.nextInt();
+		Scanner sc = new Scanner(System.in);
+		int score = sc.nextInt();
 		
 		if(score>=90 && score<=100) 
 			System.out.println("A");

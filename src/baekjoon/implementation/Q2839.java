@@ -1,14 +1,14 @@
 package baekjoon.implementation;
 
 import java.util.Scanner;
-
+//설탕 봉지 최소 개수 구하기
 public class Q2839 {
 
 	public static void main(String[] args) {
-		Scanner scanner = new Scanner(System.in);
+		Scanner sc = new Scanner(System.in);
 
-		int N = scanner.nextInt();
-		scanner.close();
+		int N = sc.nextInt();
+		sc.close();
 
 		if (N % 5 == 0) System.out.println(N / 5);
 		else if (N % 5 % 3 == 0) System.out.println(N / 5 + (N % 5) / 3);

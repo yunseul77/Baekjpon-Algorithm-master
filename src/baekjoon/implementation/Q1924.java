@@ -1,16 +1,16 @@
 package baekjoon.implementation;
 
 import java.util.Scanner;
-
+//2007년 x월 y일 요일 구하기
 public class Q1924 {
 
 	public static void main(String[] args) {
-		Scanner scanner = new Scanner(System.in);
+		Scanner sc = new Scanner(System.in);
 		
-		int month = scanner.nextInt();
-		int date = scanner.nextInt();
+		int month = sc.nextInt();
+		int date = sc.nextInt();
 		
-		scanner.close();
+		sc.close();
 		
 		int gap = date;
 		
